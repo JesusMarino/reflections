@@ -1,0 +1,5 @@
+What happens when you initialize a repository?
+Why do you need to do it?
+Resp: At the moment I initialize a repository a hidden folde named .git is created. 
+I need to initialize a repository so I can take snapshots (commits)
+of the various files and subfolders of that folder.

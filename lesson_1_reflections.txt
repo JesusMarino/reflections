@@ -1,0 +1,46 @@
+How did viewing a diff between two versions 
+of a file help you see the bug that was introduced?
+
+Resp: Observing only de differences between two files helps because you get rid of
+all the lines that are identical between both files.
+Thus, reducing the length of the text tha has to be checked.
+
+
+How could having easy access to the entire history of a file
+make you a more efficient programmer in the long term?
+Resp: The main reason of this is that it is possible that a bug passes
+unnoticed for a long time between version after version of the file.
+Once the bug is noticed, it's possible to get to the first version where the bug was introduced; making it easier to repair it's consequences.
+Other advantage would be that one can have different algorithms in
+each version to resolve one particular task. In this way,
+it's easy to do tests with each version to look for the most
+efficient way to do that task.
+
+What do you think are the pros and cons of manually choosing
+when to create a commit, like you do in Git, vs having versions
+automatically saved, like Google Docs does?
+Resp: the pros of manually choosing when to create a commit is that
+the changes in each version have more logical meaning. Each changes
+reflects something meaningful. The disadvantage resides in that
+the user has to remember all the time to create the commit whenever
+there are meaningful changes on the file.
+
+Why do you think some version control systems, like Git, allow saving
+multiple files in one commit, while others, like Google Docs, treat
+each file separately?
+Resp: Git saves multiple files in one commit, because it's supposed that
+all the files of that commit are related between them, in regard
+of a common project.
+
+How can you use the commands git log and git diff to view
+the history of files?
+Resp: git log is used to check the chronology of all the commits registered in the repository; get diff is used to compare two committed
+versions of one particular file, and visualize their differences.
+
+How might using version control make you more confident to make
+changes that could break something?
+Resp: That makes me very confident about making any change, because
+I know I can revert any change easily.
+
+Now that you have your workspace stup, what do you want to try using Git for?
+Resp: I wnat to use git for my excel macros projects.
