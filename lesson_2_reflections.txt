@@ -9,3 +9,34 @@ What value do you think it offers?
 The staging area is where I put the files I'm interested in it's tracking,
 whereas the working directory shows all the files, tracked or not.
 The value of this is to pinpoint only the files needed to be tracked by git.
+
+How can you use the staging area to make shure you have one commit per logical change?
+Resp: I would add to the staging area only the files related to that
+logical change. To check that, I would use git diff.
+
+What are some situations when branches would be helpful in keeping
+your history organized?
+How would branches help?
+Resp: Branches are helpful when you need to try parallel versions of the same project, ie: different languages of the same program, or an experimental aproach
+to solve certain problem, without getting rid of the original project.
+Branches maintain the changes isolated, so any change comitted is independent of other branches.
+
+How do the diagrams help you visualize the branch structure?
+Resp: The diagrams allow me to check for unreachable commits and act accordingly.
+It helps me with making a mental image of the status of all the project.
+
+What is the result of merging two branches together?
+Why do we represent it in the diagram the way we do?
+Resp: The result is taht the two branches become one.
+The diagram shows the history of the brancha. Each commit inside a forked branch
+has indications that allow to infere if the commit belonged to the master branch
+or the "dead" branch.
+
+What are the pros and cons of Git's automatic merging vs. always
+doing merges manually?
+Resp: The pro of automatic merging is how easy it is, asuming
+there's no conflict between files. The con occurs when those
+file version conflict appears. In my case not al the indicators
+showed on the video were present, so I have to figure it out
+rather manually.
+
