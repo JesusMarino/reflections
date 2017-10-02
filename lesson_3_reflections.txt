@@ -6,3 +6,11 @@ Lastly, a remote repository offers an easy way to backup the data concerning the
 Why might you want to always pull changes manually rather than
 having Git automatically stay up-to-date with your remote repository?
 Resp: It gives me more control over the versions of my files.
+
+Describe the differences between forks, clones and branches.
+When would you use one instead of another?
+Resp: A fork is pretty much like a clone that exists on GitHub.
+A clone is the exact copy of a git repository. 
+A branch is paralel version of files inside one repository.
+I would use a fork when I want to use a repository on GitHub
+ but don't want my changes reflected on the original repository.
