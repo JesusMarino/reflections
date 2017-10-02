@@ -9,15 +9,20 @@ Resp: It gives me more control over the versions of my files.
 
 Describe the differences between forks, clones and branches.
 When would you use one instead of another?
-Resp: A fork is pretty much like a clone that exists on GitHub.
-A clone is the exact copy of a git repository. 
-A branch is paralel version of files inside one repository.
-I would use a fork when I want to use a repository on GitHub
+ Resp: A fork is pretty much like a clone that exists on GitHub.
+ A clone is the exact copy of a git repository. 
+ A branch is paralel version of files inside one repository.
+ I would use a fork when I want to use a repository on GitHub
  but don't want my changes reflected on the original repository.
  
- What is the benefit of having a copy of the las known state of the remte stored locally?
+What is the benefit of having a copy of the las known state of the remte stored locally?
  Resp: the copy of the last known state of the remote acts as a branch, so, when there's
  differences between the actual remote repository and the local repository, that local copy
  of the last known remote status will be used to resolve the conflicts.
  
+How would you collaborate without using Git or GitHub?
+What would be easier and what would be harder?
+ Resp: I would implement a working folder in the cloud (like Google Drive or similar)
+ and share the contents between all the collaborators.
+ It will be easy to setup, but very hard to maintain and get track of the changes.
  
