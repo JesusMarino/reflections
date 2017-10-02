@@ -1,11 +1,12 @@
 When would you want to use a remote repository rather than keeping all your work local?
-Resp: I would use a remote repository whenever I need to share the contents of the repository, or if I start a collaborative project.
-Also a remote reporsitory facilitates managing the files from different computers.
-Lastly, a remote repository offers an easy way to backup the data concerning the repository.
+ Resp: I would use a remote repository whenever I need to share the contents of the repository,
+ or if I start a collaborative project.
+ Also a remote reporsitory facilitates managing the files from different computers.
+ Lastly, a remote repository offers an easy way to backup the data concerning the repository.
 
 Why might you want to always pull changes manually rather than
 having Git automatically stay up-to-date with your remote repository?
-Resp: It gives me more control over the versions of my files.
+ Resp: It gives me more control over the versions of my files.
 
 Describe the differences between forks, clones and branches.
 When would you use one instead of another?
@@ -25,4 +26,13 @@ What would be easier and what would be harder?
  Resp: I would implement a working folder in the cloud (like Google Drive or similar)
  and share the contents between all the collaborators.
  It will be easy to setup, but very hard to maintain and get track of the changes.
+ 
+When would you want to make changes in a separate branch rather than directly in master?
+What benefits does each approach have?
+ Resp: I would use separte branches when the repository has multiple colaborators,
+ so the master branch always has the revised and proved version.
+ The benefit of using separate branches is better organization of the repository, opposed to
+ the much simpler schema of using only the master branch.
+ 
+
  
